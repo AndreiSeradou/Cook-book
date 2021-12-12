@@ -17,7 +17,7 @@ namespace Cook_book.Data
 
         public void ChooseDish()
         {
-
+            throw new NotImplementedException();
         }
     }
 }

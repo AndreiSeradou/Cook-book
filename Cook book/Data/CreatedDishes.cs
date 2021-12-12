@@ -12,12 +12,12 @@ namespace Cook_book.Data
 
         public List<Dish>? GetCreatedDishes() 
         { 
-            throw new NotImplementedException();
+            return CreatedAllDishes;
         }
 
         public void ChooseDish()
         {
-
+            throw new NotImplementedException();
         }
     }
 }
