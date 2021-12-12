@@ -10,30 +10,34 @@ namespace Cook_book.Entity
 {
     internal class Cookbook
     {
-        public ClassOfDish classOfDish = new ClassOfDish();
-        public CreatedDishes createdDishes = new CreatedDishes();
-        public  CreateDish createDish = new CreateDish();
-        public SearchByIngredients searchByIngredients = new SearchByIngredients();
-        public SearchDishByName searchDishByName = new SearchDishByName();
+        public ClassOfDish? classOfDish;
+        public CreatedDishes? createdDishes = new CreatedDishes();
+        public  CreateDish? createDish;
+        public SearchByIngredients? searchByIngredients;
+        public SearchDishByName? searchDishByName;
         public Favourites favourites = new Favourites();
         public void RunTheSelectionByClass()
         {
-            
+            classOfDish = new ClassOfDish();
+            Console.WriteLine(classOfDish);
         }
 
         public void StartCreatingDish()
         {
-
+            createDish = new CreateDish();
+            Console.WriteLine(createDish);
         }
 
         public void SearchForDishByName()
         {
-
+            searchDishByName = new SearchDishByName();
+            Console.WriteLine(searchDishByName);
         }
 
         public void SearchForDishByIngredients()
         {
-
+            searchByIngredients = new SearchByIngredients();
+            Console.WriteLine(searchByIngredients);
         }
     }
 }

@@ -8,5 +8,23 @@ namespace Cook_book.Servise
 {
     internal class Timer
     {
+        public int timer = default;
+
+        public int start()
+        {
+            if (timer < 0)
+            {
+                return timer * -1;
+            }
+
+            timer++;
+
+            return start();
+        }
+
+        public void stop()
+        {
+            timer *= -1;
+        }
     }
 }

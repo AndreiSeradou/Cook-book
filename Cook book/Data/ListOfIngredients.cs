@@ -8,5 +8,6 @@ namespace Cook_book.Data
 {
     internal class ListOfIngredients
     {
+        public List<string>? listOfIngredients { get; set; }
     }
 }

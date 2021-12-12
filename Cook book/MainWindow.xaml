@@ -10,7 +10,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition x:Name="cookbook"/>
         </Grid.ColumnDefinitions>
-        <Button Width="127" Height="48" HorizontalAlignment="Left" VerticalAlignment="Center" Content="" Margin="124,0,0,0"></Button>
+        <Button Width="128" Height="48" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Start App" RenderTransformOrigin="2.379,0.524"/>
 
     </Grid>
 </Window>

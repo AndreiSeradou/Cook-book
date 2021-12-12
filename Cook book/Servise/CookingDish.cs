@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cook_book.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace Cook_book.Servise
 {
     internal class CookingDish
     {
+        public List<Dish>? dishes { get; set; }
     }
 }

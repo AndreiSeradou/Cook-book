@@ -12,7 +12,7 @@ namespace Cook_book.Data
 
         public List<Dish>? GetFavouritesDishes()
         {
-            throw new NotImplementedException();
+            return ListFavourites;
         }
 
         public void ChooseDish()

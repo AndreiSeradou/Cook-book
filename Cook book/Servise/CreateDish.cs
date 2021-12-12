@@ -14,17 +14,17 @@ namespace Cook_book.Servise
 
         public void Save()
         {
-
+            throw new NotImplementedException();
         }
 
         public List<string> GetAllIngredients()
         {
-            throw new NotImplementedException();
+            return new List<string>();
         }
 
         public void SetUpAQueue()
         {
-
+            CookingQueue = new int();
         }
     }
 }
